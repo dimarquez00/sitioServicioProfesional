@@ -73,6 +73,9 @@
 .footer{
     background-color: #027eb4
 }
+.mapaContacto{
+    width: 100%;
+}
 
 @media screen and (max-width: 720px){
     .tituloEncabezado{
