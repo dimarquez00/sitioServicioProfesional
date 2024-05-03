@@ -6,13 +6,12 @@
 .linksMenu:hover{
     text-decoration: underline;
 }
-.encabezado {
+.encabezado{
     z-index: 2;
     color: white;
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(0, 0, 0, 0.9); 
     padding: 40px;
 }
-
 .headerText{
     margin-left: 6px;
 }
@@ -43,6 +42,14 @@
 #botonServicios:hover{
     background-color: #01486c;
     border-color: #01486c;
+}
+
+.imagenPrincipal{
+    height: 90vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
 }
 
 .imagenNosotros{
@@ -78,6 +85,16 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1024px){
+    .imagenPrincipal{
+        height: auto;
+        display: block;
+    }
+    .encabezado{
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 720px){
     .tituloEncabezado{
         font-size: 1.3rem;
@@ -85,15 +102,18 @@
     .textoEncabezado{
         display: none;
     }
-
+    #botonServicios{
+        width: 100%;   
+    }
 }
 @media screen and (max-width: 500px){
     .tituloEncabezado{
         font-size: 1.4em;
     }
     .encabezado{
-        padding: 20px;
+        padding: 30px;
     }
+
 }
 @media screen and (max-width: 360px){
     .tituloEncabezado{
