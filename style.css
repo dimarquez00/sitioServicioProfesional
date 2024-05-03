@@ -47,9 +47,6 @@
 .imagenPrincipal{
     height: 90vh;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* vertical-align: middle; */
 }
 
 .imagenNosotros{
